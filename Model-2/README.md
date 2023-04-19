@@ -1,4 +1,4 @@
-# Model 3 - Forecasting Electricity Prices
+# Model 2 - Forecasting Electricity Prices
 
 The project employs a Long Short-Term Memory (LSTM) algorithm to learn from training data, and forecast the Locational Based Marginal Prices (LBMPs) for a given test date. The lookback hyperparameter determines the extent of historical data that can be utilized by the model for making predictions. Additionally, the LSTM_alg() function allows users to configure the number of training epochs. 
 
