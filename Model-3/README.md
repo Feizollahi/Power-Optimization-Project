@@ -1,5 +1,14 @@
 # Model 3 - NYISO Fuel Mix Data Analysis
 
+ ## Model Description
+ The model reads the fuel-mix generation data for the entire NYISO for year 2022. Then, it plots the generation and emission heat maps considering different times of day and dates of year. 
+
+It also finds the average day which is obtained by the average across each timestamp for each day within the dataset. Then, the best match to the average date is considered as a typical day. The model analyzes the generation, emission and emission factor for average and typical days. 
+
+It also presents the generation and emission by fuel category for the average day.
+
+At the end of Model3-Fuelmix.ipynb, the some insights and suggestions are provided.
+
 
 ## How to run:
 
@@ -19,11 +28,3 @@ In this case, the model will analyze the generation and emission for the interva
 - seaborn 0.11.2
 
 
- ## Model Description
- The model reads the fuel-mix generation data for the entire NYISO for year 2022. Then, it plots the generation and emission heat maps considering different times of day and dates of year. 
-
-It also finds the average day which is obtained by the average across each timestamp for each day within the dataset. Then, the best match to the average date is considered as a typical day. The model analyzes the generation, emission and emission factor for average and typical days. 
-
-It also presents the generation and emission by fuel category for the average day.
-
-At the end of Model3-Fuelmix.ipynb, the some insights and suggestions are provided.
