@@ -31,7 +31,7 @@ The user needs to input the desired date and time resolution (in minutes) to the
 main_opt_algorithm(opt_date='2022-08-06',delta_t=5)
 In this case, the model will optimize the revenue for 2022-08-06 with time resolution of 5 minutes. 
 
-
+Detaisl of the optimization model, decision variables, objective function and constraints are discussed in Model1-Optimization.ipynb.
 
 ## Model Outputs
 The code outputs the following
@@ -48,6 +48,7 @@ The code outputs the following
 - plot for the optimal schedule of charging and discharging along with the LBMP.
 
 
+At the end of Model1-Optimization.ipynb, the results of the model for 2022-08-06 with time resolution of 5, 20 and 60 minutes are presented and discussed. Also some insights from the results and suggestions for improivement are provided.
 
 ## GitHub url
 
