@@ -11,21 +11,12 @@ In this case, the model will analyze the generation and emission for the interva
 	
 
 
- ## Packages:
- The algorithm is coded in Python and it requires the following Python packages:
-
- - datetime
-- os
-- zipfile
-- numpy 
-- pandas 
-- math
-
-- matplotlib.pyplot
-- matplotlib.dates.DateFormatter
-- matplotlib.dates
-- matplotlib.ticker
-- seaborn
+ ## Requirements
+ - python 3.8.12
+- numpy 1.20.3
+- pandas 1.3.4
+- matplotlib 3.5.0
+- seaborn 0.11.2
 
 
  ## Model Description
